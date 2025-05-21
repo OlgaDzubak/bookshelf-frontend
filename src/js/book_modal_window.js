@@ -17,7 +17,6 @@ const objScroll = {
     disabledScroll() {
         objScroll.scrollPosition = window.scrollY;
         document.body.classList.add('block-scroll');
-        console.log(objScroll.scrollPosition);
         document.body.style.cssText = `top: -${objScroll.scrollPosition}px;`;
     },
 
